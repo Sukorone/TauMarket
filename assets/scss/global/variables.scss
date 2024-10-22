@@ -1,0 +1,40 @@
+/* Цвета */
+:root {
+  --primary-text-color: #ffffff; /* Основной цвет текста */
+  --primary-text-color-hover: #000;
+  --secondary-text-color: hsla(0, 0%, 100%, 0.502); /* Вторичный цвет текста */
+  --primary-background-color: #1e1f21; /* Основной цвет фона */
+  --secondary-background-color: #0f090c80; /* Вторичный цвет фона (фон карточки например)*/
+  --secondary-background-color-90: #0f090ccc; /* Вторичный цвет фона (без opacity)*/
+  --primary-gradient-color: #b86e9f; /* Основной цвет градиента		\          */
+  --secondary-gradient-color: #662525; /* Вторичный цвет градиента	 \     для некоторых бордеров и фона кнопок      */
+  --chat-user-message-color: #702f78; /* Вторичный цвет сообщения в чате*/
+  --chat-bot-message-color: #262629; /* Вторичный цвет сообщения в чате*/
+  --icon-sidebar-color: #201b1c; /* Цвет иконок в сайдбаре */
+  --search-background-color: #0f090c; //цвет фона для поиска
+  --button-main-bg: #ffffff08;
+  --button-main-bg-hover: #fff;
+  --border-color: #442237;
+  --button-swiper-bg: #ffffff15;
+
+  --background-gradient-color: radial-gradient(50% 50% at 50% 50%, rgb(204, 139, 139), rgba(163, 59, 59, 0) 100%); /* Градиент фона */
+  --secondary-gradient-background-color: radial-gradient(100% 100% at 0% 0%, rgba(184, 110, 159, 0.12) 0%, rgba(102, 37, 37, 0.12) 100%); /* Градиент фона при наведении */
+  --border-gradient-color: radial-gradient(100% 100% at 0% 0%, rgba(184, 110, 159, 0.8) 0%, rgba(102, 37, 37, 0.8) 100%); //цвет градиента для бордеров
+  --options-background-color: rgba(0, 0, 0, 0.43) radial-gradient(50% 50% at 50% 50%, rgba(204, 139, 139, 0.1), rgba(163, 59, 59, 0) 100%);
+  --options-btn-bg-color: rgba(255, 255, 255, 0.03) radial-gradient(50% 50% at 50% 50%, rgba(204, 139, 139, 0.1), rgba(163, 59, 59, 0) 100%);
+
+  // ICONS
+
+  --icon-user: green;
+}
+/* Размеры устройств */
+$mobile-s: 320px; /* Мобильное устройство - маленький */
+$mobile-m: 375px; /* Мобильное устройство - средний */
+$mobile-l: 425px; /* Мобильное устройство - большой */
+$tablet-s: 768px; /* Планшет - маленький */
+$tablet-m: 1024px; /* Планшет - средний */
+$tablet-l: 1224px; /* Планшет - большой */
+$desktop-s: 1440px; /* Настольный компьютер - маленький */
+$desktop-m: 1680px; /* Настольный компьютер - средний */
+$desktop-l: 1920px; /* Настольный компьютер - большой */
+$large-desktop: 2560px; /* Большой настольный компьютер */

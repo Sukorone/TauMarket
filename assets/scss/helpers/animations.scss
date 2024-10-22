@@ -1,0 +1,95 @@
+.list-enter-active,
+.list-leave-active {
+  transition: transform 0.3s ease;
+  max-height: 500px;
+}
+
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+  max-height: 0;
+}
+
+.fadeBtn-enter-active,
+.fadeBtn-leave-active {
+  transition: opacity 0.7s ease;
+}
+
+.fadeBtn-enter-from,
+.fadeBtn-leave-to {
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.group-enter-active,
+.group-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.group-enter-from,
+.group-leave-to {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.options-animation-enter-active {
+  -webkit-animation: slide-fade-down-in 0.3s;
+  animation: slide-fade-down-in 0.3s;
+  transition: transform 0.3s ease;
+}
+.options-animation-leave-active {
+  -webkit-animation: fade-out 155ms;
+  animation: fade-out 155ms;
+  transition: transform 0.3s ease;
+}
+
+.options-animation-enter-from,
+.options-animation-leave-to {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.profile-enter-from {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.profile-leave-active {
+  transition: unset;
+}
+.profile-leave-to {
+  transition: unset;
+}
+
+// TODO: Пофикси
+
+.fade-enter-active {
+  transition: opacity 0.1s ease;
+}
+
+.fade-enter-from {
+  opacity: 0;
+  transition: unset;
+}
+
+.fade-leave-from {
+  transition: unset;
+}
+
+.fade-leave-active {
+  transition: unset;
+}
+.fade-leave-to {
+  transition: unset;
+}
